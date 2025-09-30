@@ -4,7 +4,23 @@ title: Getting Started
 
 # Quickstart
 
-Ensure you have [Node.js](https://nodejs.org/en/download) and [Helm](https://helm.sh/docs/intro/install/) installed. Then run the following commands to install Ark:
+Ensure you have [Node.js](https://nodejs.org/en/download) and [Orbstack](https://orbstack.dev/) installed. 
+
+The easiest way to ensure you have everything needed is to use [Homebrew](https://brew.sh/):
+
+```bash
+brew install node
+brew install kubectl
+brew install orbstack
+```
+
+Verify that your context is set to Orbstack by using:
+
+```bash
+kubectl config get-contexts
+```
+
+Then run the following commands to install Ark:
 
 ```bash
 # Install the 'ark' CLI:
